@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "245789580351",
+    "project_id": "ssolstice-sample",
+    "storage_bucket": "ssolstice-sample.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245789580351:android:4c23e14ddd561715df2c8a",
+        "android_client_info": {
+          "package_name": "com.ssolstice.sample"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBaYZb_MGWuUwMyyw6k4jTp1aQLGRSfKQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
