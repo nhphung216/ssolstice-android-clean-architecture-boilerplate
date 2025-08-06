@@ -9,7 +9,7 @@ import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.map
 import javax.inject.Inject
 
-class ThemePreferenceManager @Inject constructor(
+class PreferenceManager @Inject constructor(
     private val dataStore: DataStore<Preferences>
 ) {
     companion object {

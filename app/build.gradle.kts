@@ -47,6 +47,13 @@ dependencies {
 
     implementation(platform(libs.firebase.bom))
     implementation(libs.firebase.analytics)
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+
+    // Room
+    implementation(libs.androidx.room.runtime)
+    kapt(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
 
     // Hilt Runtime
     implementation(libs.hilt.android)
@@ -57,7 +64,7 @@ dependencies {
     // Hilt Compiler
     kapt(libs.hilt.compiler)
 
-    // Others
+    // SharedPreferences / DataStore
     implementation(libs.androidx.datastore.preferences)
     implementation(libs.androidx.navigation.compose)
 
